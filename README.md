@@ -2,7 +2,7 @@
 
 ![pic](images/demo.jpg)
 
-**本项目建立于2007年**
+**本项目建立于2007年，是一个陈旧的.swf驱动的flv-player网页视频播放器。**
 
 [打开演示页面](https://nihility-ming.github.io/flv-player/)
 
@@ -103,24 +103,43 @@ type="application/x-shockwave-flash" width="500" height="224"></embed>
 ### 参数名称
 参数说明	默认值
 `vcastr_file` 方法2传递影片flv文件地址参数，多个使用|分开 空
+
 `vcastr_title` 影片标题参数，多个使用|分开，与方法2配合使用 空
+
 `vcastr_xml` 方法3 传递影片flv文件地址参数，样板参考 (根目录下的vcastr.xml 文件)
+
 `IsAutoPlay` 影片自动播放参数：0表示不自动播放，1表示自动播放 0
+
 `IsContinue` 影片连续播放参数：0表示不连续播放，1表示连续循环播 1
+
 `IsRandom` 影片随机播放参数：0表示不随机播放，1表示随机播放 0
+
 `DefaultVolume` 默认音量参数 ：0-100 的数值，设置影片开始默认音量大小 100
+
 `BarPosition` 控制栏位置参数 ：0表示在影片上浮动显示，1表示在影片下方显示 0
+
 `IsShowBar` 控制栏显示参数 ：0表示不显示；1表示一直显示；2表示鼠标悬停时显示；3表示开始不显示，鼠标悬停后显示 2
+
 `BarColor` 播放控制栏颜色，颜色都以0x开始16进制数字表示 0x000033
+
 `BarTransparent` 播放控制栏透明度 60
+
 `GlowColor` 按键图标颜色，颜色都以0x开始16进制数字表示 0x66ff00
+
 `IconColor` 鼠标悬停时光晕颜色，颜色都以0x开始16进制数字表示 0xFFFFFF
+
 `TextColor` 播放器文字颜色，颜色都以0x开始16进制数字表示 0xFFFFFF
+
 `LogoText` 可以添加自己网站名称等信息(英文) 空
+
 `LogoUrl` 可以从外部读取logo图片,注意自己调整logo大小,支持图片格式和swf格式 空
+
 `EndSwf` 影片播放结束后,从外部读取swf文件，可以添加相关影片信息，影片分享等信息，需自己制作 空
+
 `BeginSwf` 影片开始播放之前,从外部读取swf文件，可以添加广告，或者网站信息，需自己制作 空
+
 `IsShowTime` 是否显示时间 : 0表示不显示时间，1表示显示时间 1
+
 `BufferTime` 影片缓冲时间，单位（秒） 2
 
 ## 使用协议
